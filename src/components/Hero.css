@@ -1,0 +1,215 @@
+.hero{
+    position: relative;
+}
+
+.hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo{
+position: absolute;
+z-index: 1;
+top: 6%;
+height: 42px;
+width: 233px;
+left: 11%;
+}
+
+.navbutton {
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+    right: 11%;
+    height: 42px;
+    width: 233px;   
+}
+
+.navbutton span {
+width: 49px;
+height: 22px;
+
+/* Body/Medium/Regular */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+margin-right: 20px;
+
+/* or 22px */
+text-align: center;
+
+/* Neutral/White */
+color: #FFFFFF;
+}
+
+.navbutton button {
+width: 99px;
+height: 44px;
+
+/* Neutral/White */
+border: 1px solid #FFFFFF;
+color: #FFFFFF;
+cursor: pointer;
+border-radius: 10px;
+box-sizing: border-box;
+width: 99px;
+padding: 12px 20px;
+background: rgba(255, 255, 255, 0.1);
+box-shadow: 0 13px 21px rgba(0, 0, 0, 0.05);
+}
+
+.glass-container {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    height: 500px;
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(112.32deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 101.12%);
+    border-radius: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+  
+  .glass-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+    width: 365px;
+    font-family: 'DM Sans', sans-serif;
+    gap: 10px;
+    margin-top: 30px;
+    
+  }
+  
+  .glass-form-title {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .glass-form-group {
+border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-bottom: 10px;
+  }
+  
+  .glass-form-input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    background: linear-gradient(83.95deg, rgba(27, 69, 180, 0.4) 3%, rgba(28, 39, 146, 0.4) 96.84%);
+/* Neutral/White */
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .glass-form-input:focus {
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .glass-form-button {
+    width: 100%;
+    text-align: center;
+    gap: 10px;
+    height: 40px;
+    font-family: 'DM Sans';
+    border: none;
+    background: linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+  }
+
+input::placeholder{
+
+    color: #fff;
+    font-size: 16px;
+    font-family: 'DM Sans';
+}
+  
+  
+  .glass-form-footer {
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+  }
+  
+  .glass-form-footer a {
+    color: #bdd0f1;
+    text-decoration: none;
+  }
+  
+  .glass-form-footer a:hover {
+    text-decoration: underline;
+  }
+  
+.glass-form-p{
+width: 345px;
+height: 22px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.glass-form-p span{
+color: #c2d4f2;
+}
+
+.banner-content{
+    position: absolute;
+    top: 12%;
+    right: 10%;
+}
+
+.banner-content-heading{
+width: 543px;
+height: 198px;
+
+/* Heading Desktop/H1 */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 110%;
+color: #FFFFFF;
+}
+
+.banner-content-para{
+ width: 462px;
+height: 48px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 135%;
+color: #E6E8EC;
+}
